@@ -234,7 +234,7 @@ Headers:
 #### Add Files
  
 ```
-url: http://site url/_api/web/GetFolderByServerRelativePath(decodedUrl='folder name')/Files/AddStubUsingPath(decodedurl='testfile.txt')
+url: http://site url/_api/web/GetFolderByServerRelativePath(decodedUrl='folder name')/Files/AddUsingPath(decodedurl='testfile.txt')
 methods: POST
 Headers:
   Authorization: "Bearer " + accessToken
